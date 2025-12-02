@@ -1,4 +1,4 @@
-// script for Part 4
+// Script for Part 4 - Forms and Buttons
 
 const nameInput = document.getElementById('nameInput');
 const submitBtn = document.getElementById('submitBtn');
