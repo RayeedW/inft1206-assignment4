@@ -1,4 +1,4 @@
-// This file makes a random silly story when you click the button.
+// This file makes a random silly story when you click the button. 
 
 const customName = document.getElementById('customName');
 const generateButton = document.getElementById('generate');
