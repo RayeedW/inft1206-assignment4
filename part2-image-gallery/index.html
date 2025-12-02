@@ -4,3 +4,30 @@ File: index.html
 Date: December 01, 2025
 Simple image gallery page for Part 2.
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Image Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h1>Image Gallery</h1>
+
+  <div class="gallery">
+    <div class="thumbnails">
+      <img src="photo1.jpg" alt="Photo 1" tabindex="0">
+      <img src="photo2.jpg" alt="Photo 2" tabindex="0">
+      <img src="photo3.jpg" alt="Photo 3" tabindex="0">
+    </div>
+
+    <div class="preview">
+      <img id="largeImage" src="photo1.jpg" alt="Large preview">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
