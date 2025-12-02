@@ -1,0 +1,24 @@
+/* Styles for Part 5 form validation */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 6px;
+}
+
+button {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}

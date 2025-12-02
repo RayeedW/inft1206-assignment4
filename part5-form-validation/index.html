@@ -4,4 +4,30 @@ File: index.html
 Date: December 01, 2025
 Form validation test for Part 5.
 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form Validation Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+  <h1>Form Validation</h1>
+
+  <form id="myForm">
+    <label for="emailInput">Email:</label>
+    <input id="emailInput" type="text" placeholder="example@gmail.com">
+
+    <label for="ageInput">Age (must be 18+):</label>
+    <input id="ageInput" type="number" min="0">
+
+    <button type="button" id="validateBtn">Check Form</button>
+  </form>
+
+  <p id="message"></p>
+
+  <script src="main.js"></script>
+</body>
+</html>
